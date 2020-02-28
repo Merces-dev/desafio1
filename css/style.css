@@ -69,7 +69,7 @@ li{
 }
 footer{
     width: 100%;
-    height: 600px;
+    height: 150px;
     display: flex;
     justify-content: center;
 }
@@ -85,8 +85,27 @@ footer{
 .footer1 h2{
     color:#6eb6dc ;
     font-weight: 600;
+    margin-top: 15px;
 }
 .footer1 h3{
      margin-top: 30px;
 }
-
+.servicos{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.tiposervicos{
+    display: flex;
+}
+.coluna{
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    padding: 50px;
+}
+.coluna h2{
+    color: #6eb6dc;
+    margin-bottom: 10px;
+}
